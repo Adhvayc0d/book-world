@@ -1,0 +1,90 @@
+.A1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: blue;
+    background-color: blueviolet;
+text-decoration: none;
+padding:15px;
+}
+.A1:hover{
+    color: blueviolet;
+    background-color: blue;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: fuchsia;
+    text-decoration-color: blueviolet;
+    text-decoration-style: dotted;
+    text-decoration-line:underline;
+    text-decoration-thickness:2px;
+}
+.heading:hover{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    color:brown;
+    text-decoration-color: blue;
+    text-decoration-style:double;
+    text-decoration-line:overline;
+    text-decoration-thickness:3px;
+}
+.book_image{
+    height:300px;
+    width:300px;
+    border-radius:20px;
+    border-color: red;
+    border-style: double;
+    border-width:5px;
+    padding:15px;
+}
+.book_image:hover{
+    border-color: blue;
+    border-style: dotted;
+    border-width:7px;
+    padding:17px;
+    transform:scale(1);
+}
+.content{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    color: blueviolet;
+}
+.content:hover{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+color:red;
+}
+.book_author{
+    height:300px;
+    width:300px;
+    border-radius:20px;
+    border-color: blue;
+    border-style: groove;
+    border-width:5px;
+    filter: grayscale(0);
+}
+.book_author:hover{
+border-color:red;
+filter: grayscale(90%);
+border-style:ridge;
+border-width:8px;
+transform: scale(1.5);
+}
+.author_content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: hotpink;
+}
+.author_content:hover{
+    font-family: monospace;
+    font-size:medium;
+    color: fuchsia;
+}
+body{
+background-image:url("https://images.search.yahoo.com/images/view;_ylt=Awr9NEn0OCRi9UAAP0KJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2NlNjU4ZTliM2M5ZWM0ZTMyYTZmNGJjZmNjNjQ2ZWMwBGdwb3MDMTQEaXQDYmluZw--?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Btheme%2Bfor%2Bweb%2Bpage%26ei%3DUTF-8%26type%3DE211US105G0%26fr%3Dmcafee%26fr2%3Dsb-top-images.search%26tab%3Dorganic%26ri%3D14&w=1920&h=1080&imgurl=cdn.elegantthemes.com%2Fblog%2Fwp-content%2Fuploads%2F2013%2F09%2Fbg-7-full.jpg&rurl=http%3A%2F%2Fwww.elegantthemes.com%2Fblog%2Ffreebie-of-the-week%2F20-free-background-images-for-wordpress&size=324.2KB&p=background+theme+for+web+page&oid=ce658e9b3c9ec4e32a6f4bcfcc646ec0&fr2=sb-top-images.search&fr=mcafee&tt=20+Stunning+Background+Images+To+Use+In+Your+WordPress+Website%2C+For+Free%21+%7C+Elegant+Themes+Blog&b=0&ni=51&no=14&ts=&tab=organic&sigr=fo4c_Ia.feF4&sigb=zmm93ATxll0Y&sigi=40i43adPCtRp&sigt=q8KaHY57BSjb&.crumb=3aI9/eJ24sM&fr=mcafee&fr2=sb-top-images.search&type=E211US105G0");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
